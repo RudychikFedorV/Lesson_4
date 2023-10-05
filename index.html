@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/media.css">
+    <link rel="stylesheet" href="./js/script.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500;700&display=swap" rel="stylesheet">
+    <title>Porfolio</title>
+ </head>
+<body>
+    <div class="wrapper">  <!-- является универсальным блочным элементом и предназначен для группирования элементов документа с целью изменения вида содержимого через стили-->
+        <nav class="nav">   <!--Тег <nav> визначає набір навігаційних посилань. -->
+            <ul class="nav__menu__ul">    <!-- Невпорядкований (ненумерований) список починається з тега <ul>. -->
+                <li class="nav__menu__li"><a href="/" class="nav__menu__a">About Me</a></li>    <!-- Кожний елемент списку починається з тега <li>. -->
+                <li class="nav__menu__li"><a href="/" class="nav__menu__a">Skills</a></li>
+                <li class="nav__menu__li"><a href="/" class="nav__menu__a">Project</a></li>
+                <li class="nav__menu__li"><a href="/" class="nav__menu__a">Contact</a></li>
+            </ul>
+        </nav>        
+        <div class="page">
+            <div class="page__info">
+                <h1 class="page__title__info"> 
+                    <div>Hi  <img src="./img/emoji.svg" alt="emoji"> ,</div>
+                    <div>I&#39;m Fedir,</div>
+                    <div class="page__title">Front-end Developer</div>                 
+                </h1>
+                <p class="page__subtitle">I design and develop experiences that make people&#39;s lives simpler through Web and Mobile apps.
+                    I work with FIgma , HTML5, CSS3, JavaScript, React, ReactNative and Flutter.
+                </p>
+                <div class="page__buttons">
+                    <a class="btn btn__primary" href="/">HIRE ME</a>
+                    <a class="btn btn__seconary" href="/">SEE MY PROJECTS</a>
+                </div> 
+            </div>
+            <div class="page__img">
+                <img src="./img/my-photo.jpg" alt="photo">
+                <span class="page__img__bockdrop"></span>
+            </div>                       
+        </div>
+    </div> 
+</body>
+</html>
